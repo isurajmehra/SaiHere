@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "859988254140",
+    "firebase_url": "https://sai-here.firebaseio.com",
+    "project_id": "sai-here",
+    "storage_bucket": "sai-here.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859988254140:android:99b76193043e5b01",
+        "android_client_info": {
+          "package_name": "com.sairajen.saihere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859988254140-t5b1qc23fs6j0ka772muu4kfgcihn7l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcfh7xio6btS0zmzmty8CtqV2KzgSOjZQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

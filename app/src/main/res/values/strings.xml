@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sai Here</string>
+
+    <!-- Other Strings -->
+    <string name="no_internet_text">No Internet Connection</string>
+    <string name="no_post">No Post</string>
+    <string name="no_category">No Category</string>
+    <string name="no_post_found">Not Found</string>
+    <string name="failed_text">Failed When Load Data</string>
+    <string name="failed_text_comment">Failed When Send Comment. Please Try Again</string>
+    <string name="no_inet_text_comment">No Internet Connection. Please Try Again</string>
+    <string name="after_send_comment">Your comment status is</string>
+    <string name="retry_txt">RETRY</string>
+    <string name="show_tv_comments">Show Comments</string>
+    <string name="send_tv_comments">Send Comment</string>
+    <string name="count_bt_comments"> comments</string>
+    <string name="msg_search_input">Please Fill Search Input</string>
+    <string name="task_running_msg">Ops, Task Still Running</string>
+    <string name="post_detail_displayed_msg">Post Details Displayed</string>
+    <string name="post_have_no_comment">This post have no comment</string>
+    <string name="cannot_add_to_read_later">Cannot add to Read Later</string>
+    <string name="remove_from_msg">remove from</string>
+    <string name="added_to_msg">added to</string>
+
+    <!--ADS UNIT ID  -->
+    <!--banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3883357351890782/6779766088</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+</resources>

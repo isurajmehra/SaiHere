@@ -1,0 +1,301 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.sairajen.saihere.fragments.OnlinePrayers">
+
+    <LinearLayout
+        android:background="@color/light_black"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:layout_marginBottom="14dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/online_prayer_ll_2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_margin="12dp"
+                    android:background="@drawable/sai_prayer"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp" />
+                <TextView
+                    android:text="Your prayer letter"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_margin="12dp"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="was successfully sent to"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="Shirdi Saibaba’s feet."
+                    android:textColor="@color/blue"
+                    android:layout_margin="12dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="Hold on to your faith. Sai baba always with you"
+                    android:textColor="@color/blue"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/online_prayer_ll_1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Write a Prayer letter to shirdi Sai Baba"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:layout_margin="12dp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="Dear sai baba Devotees,"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:maxLines="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="The Two Simplest Habits can Miraculously CHANGE your life"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="1) READING Sri Sai Satcharitra."
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="2) WRITING ” Om Sairam ” 25 or 48 or 108 times daily"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:padding="3dp"
+                    android:background="@color/light_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:padding="10dp"
+                        android:background="@color/white"
+                        android:hint="Sai Devotees name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="16dp"
+                    android:padding="3dp"
+                    android:background="@color/light_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:padding="10dp"
+                        android:gravity="start"
+                        android:background="@color/white"
+                        android:hint="Write OM SAIRAM with your prayers here"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/online_prayer_send"
+                    android:background="@drawable/rounded_corner_1"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Send to Sai Baba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="Believe in the above statement,NOTHING IS IMPOSSIBLE for our Lord Sri Sai Baba.We are INSISTING on this because you will be certainly benefited by following these and all your Suffering shall come to an END for sure.Unless we completely surrender to His Lotus Feet and worship Him with Utmost FAITH and DEVOTION,how can he help us.Our Mother and Father fulfill our desires when they are expressed orally BUT Sri Sai will bless us and fulfill our desires only if we DESERVE them and only if they are BEST SUITED for us.So without any more delay Start READING Sri Sai Satcharitra and Write ” Om Sairam ” daily."
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="Sri Sai Satcharitra can be read in either of the two methods mentioned below"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="a) Completing the Whole Book of Sri Sai Satcharitra in 7 days starting from Thursday and Completing it on Wednesday basing on the number of chapters to be read daily"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="b) Reading ONE CHAPTER DAILY and CONTINUOUSLY"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="These two habits of Reading Sri Sai Satcharitra and Writing ” Om Sairam ” 25 or 48 or 108 times a day with your prayers will CERTAINLY CHANGE your lives and all your sufferings shall come to an END."
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="Just THINK about it and DECIDE yourself"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="Have Faith and be Patient"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="Om Sairam"
+                    android:textColor="#757575"
+                    android:textSize="16sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/online_prayer_share_btn"
+                android:background="@drawable/share"
+                android:layout_margin="8dp"
+                android:layout_gravity="end"
+                android:layout_width="80dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

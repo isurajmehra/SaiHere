@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="menu_title">
+        <item>Saibaba’s Daily Message</item>
+        <item>Saibaba Online Prayers</item>
+        <item>Sai Answer Your Questions</item>
+        <item>Saibaba Gallery (Daily Update)</item>
+        <item>Saibaba’s Blessings For you</item>
+        <item>Sai Stories For Children</item>
+        <item>Shri Sai Satcharitra (Book)</item>
+        <item>Miracles of Saibaba</item>
+        <item>Sai Baba Group Chant</item>
+        <item>Shirdi Sai baba’s videos</item>
+        <item>Shirdi Sai baba Wallpaper (HD)</item>
+        <item>Other Category</item>
+        <item>More cool app for you</item>
+        <item>Share the Sai App to your Friends</item>
+    </array>
+
+    <array name="menu_sub_title">
+        <item>Today Sai baba’s message for you</item>
+        <item>Write Prayer letter to Sai baba</item>
+        <item>How to seek answer for your problem ?</item>
+        <item>Share Shirdi Saibaba Images to every one</item>
+        <item>Shirdi Sai Baba speaks from Dwarakamai</item>
+        <item>Shirdi Sai Baba Stories for Kids</item>
+        <item>Shirdi Sai baba history (very Powerful)</item>
+        <item>Unbelievable Miracles Of Sai Baba</item>
+        <item>Group Chanting is also like yoga</item>
+        <item>All videos about Shirdi Sai baba</item>
+        <item>Shirdi Sai Baba’s Exclusive WallPapers</item>
+        <item>All News about Shirdi Saibaba</item>
+        <item>Cool and amazing apps recommended for you</item>
+        <item>SHARE the App and let them reach all Sai Devotees</item>
+    </array>
+
+</resources>

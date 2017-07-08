@@ -1,0 +1,253 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:background="@color/light_black"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:layout_marginBottom="14dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/answer_question_ll_2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Shirdi Saibaba says..."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:layout_margin="12dp"
+                    android:layout_gravity="top"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/answer_question_imageView"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/answer_question_text"
+                    tools:text="You will pass the examination. You will succeed by getting help from the southern direction"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/answer_question_back_btn"
+                    android:background="@drawable/rounded_corner"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answer_question_ll_1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="How to seek answer for your questions / problems?"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:layout_margin="12dp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="1. Assume that you have visited Shree Sainath Maharaj at Shirdi, uttering word of Shree Sai."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="2. Visualise that you are sitting in front of Sai Baba."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="3. Don't use it as a Child's Fun."
+                    android:textColor="#D32F2F"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="4. Keep the Problem / Question in mind, thinking that Baba will guide by replying."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="5. Think of a number in between 1 and 720."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="6. Enter the number in the following box."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="7. The answer will come on the next page."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="Enter a number between 1 and 720"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:padding="3dp"
+                    android:background="@color/light_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/answer_question_edit_text"
+                        android:padding="10dp"
+                        android:background="@color/white"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/answer_question_send_btn"
+                    android:background="@drawable/rounded_corner_1"
+                    android:layout_margin="12dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:text="Ask Sai Baba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:text="This Sri Sai Prashanavali is based on a very old book written by Shri Madhav Lele, with the divine inspiration and guidance of Shree Sai Baba Himself. Millions of people have benefitted from this miracle."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="12dp"
+                    android:text="If you do not understand the answer immediately, then please do have patience. The answer will be more meaningful with time. Think of a different number for different question."
+                    android:textColor="@color/medium_black"
+                    android:textSize="15sp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/answer_question_share_btn"
+                android:background="@drawable/share"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="end"
+                android:layout_width="80dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
